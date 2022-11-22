@@ -1,6 +1,5 @@
 from django import forms
 
-from administration.views import session1
 from .models import *
 
 

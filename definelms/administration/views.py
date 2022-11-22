@@ -262,9 +262,7 @@ def edit_data_exam(request):
 
         
 ################################## add course #################################
-def session1(request):
-   u= request.session['username']
-   return render(u)
+
 
 def add_course(request):
     if 'username' not in request.session:
